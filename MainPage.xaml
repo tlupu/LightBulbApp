@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="AllJoynApp1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AllJoynApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ToggleSwitch x:Name="toggleSwitch" Header="On/Off" HorizontalAlignment="Left" Margin="36,36,0,0" VerticalAlignment="Top" Toggled="toggleSwitch_Toggled"/>
+        <Slider x:Name="slider" Header="Hue" HorizontalAlignment="Left" Margin="36,146,0,0" VerticalAlignment="Top" Width="100" />
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="219,153,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Slider x:Name="slider1" Header="Saturation" HorizontalAlignment="Left" Margin="36,251,0,0" VerticalAlignment="Top" Width="100" />
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="219,258,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.254,0.594" Click="button1_Click"/>
+        <Slider x:Name="slider2" Header="Brightness" HorizontalAlignment="Left" Margin="36,355,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="219,362,0,0" VerticalAlignment="Top" Click="button2_Click"/>
+
+    </Grid>
+</Page>
